@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+ @import url('https://fonts.googleapis.com/css?family=Merriweather');
+ @import url('https://fonts.googleapis.com/css?family=Bitter');
+ @import url('https://fonts.googleapis.com/css?family=Exo+2');
+.row {
+    height: 600px;
+    background-color: #fb9f45;
+    width: 700px;
+    margin-left: 200px;
+}
+.pic_base{
+    height: 30%;
+    background-color: #1a0ded;
+    background: url('https://drive.google.com/uc?id=1ENMVIJNPQRvW7k3MtPQClh0X1jprSco1');
+    background-size: cover;
+}
+.icon_base{
+    background-color: #1a0ded;
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 150px;
+    align-items: center;
+    border-radius: 100%;
+}
+#edit{
+    color: white;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+#profile_pic{
+    border-radius: 100%;
+    border: 2px solid #34495e;
+    box-shadow: 0 2px 2px black;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#title {
+    position: absolute;
+    font-family: verdana;
+    margin-left: 360px;
+    margin-top: 10px;
+    color: #ecf0f1;
+    font-family: 'Merriweather', serif;
+}
+#profession{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+
+}
+#content{
+    padding-top: 120px;
+    padding-left: 10px;
+    font-family: 'Exo 2', sans-serif;"
+}
+.social{
+    list-style: none;
+    position: absolute;
+    bottom: 70px;
+    align-items: center;
+    margin-left: 30px;
+}
+.social li {
+    display: inline;
+    padding: 20px;
+    margin-left: -30px;
+    padding-left: 130px;
+    align-items: center;
+    color: white;
+
+}
+.social li a{
+    color: white;
+}
+.social li a:hover{
+    color: blue;
+    transform: scale(1,1.5);
+}
